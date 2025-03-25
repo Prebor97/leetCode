@@ -127,16 +127,29 @@ public class Main {
          Reverse integer problem
          **/
 
-            int val = 0;
-            System.out.print("Enter integer to reverse : ");
-            try{
-                val = scan.nextInt();
-            }catch (InputMismatchException i){
-                System.out.println("Value must be an integer");
-            }
+//            int val = 0;
+//            System.out.print("Enter integer to reverse : ");
+//            try{
+//                val = scan.nextInt();
+//            }catch (InputMismatchException i){
+//                System.out.println("Value must be an integer");
+//            }
+//
+//            ReverseInt reverseInt = new ReverseInt();
+//            System.out.println("The reverse integer is "+reverseInt.reverse(val));
 
-            ReverseInt reverseInt = new ReverseInt();
-            System.out.println("The reverse integer is "+reverseInt.reverse(val));
+
+        /**
+
+         int conversion problem
+
+         **/
+
+//        IntConversion intConversion = new IntConversion();
+//                System.out.print("Input string : ");
+//                String val = scan.next();
+//                int converted_string = intConversion.getIntConversion(val);
+//        System.out.println("The converted value is :"+converted_string);
 
     }
 }
